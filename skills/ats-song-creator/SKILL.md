@@ -22,7 +22,7 @@ Generate original music tracks with vocals, instruments, and lyrics by publishin
 The `ats` CLI must be installed and authenticated:
 
 ```bash
-npm install -g @anthropic/ats
+npm install -g @difflabai/ats-cli
 ats auth login
 ```
 
@@ -184,7 +184,7 @@ Both versions follow your lyrics and style direction. Listen to each and pick yo
 
 ## Troubleshooting
 
-- **"ats: command not found"** — Install the CLI: `npm install -g @anthropic/ats`
+- **"ats: command not found"** — Install the CLI: `npm install -g @difflabai/ats-cli`
 - **"Not authenticated"** — Run `ats auth login` to authenticate
 - **Task stuck in `in_progress`** — Generation typically takes 30-90 seconds. If it exceeds 5 minutes, the task likely failed. Check with `ats get TASK_ID -f json`.
 - **Task status `failed`** — Check the `error` field. Common causes: invalid payload format, lyrics too long, or backend service temporarily unavailable. Retry with corrected payload.

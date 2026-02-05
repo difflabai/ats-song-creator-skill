@@ -19,7 +19,7 @@ npx skills add difflabai/ats-song-creator-skill
 ## Prerequisites
 
 ```bash
-npm install -g @anthropic/ats
+npm install -g @difflabai/ats-cli
 ats auth login
 ```
 
@@ -36,7 +36,7 @@ The agent will:
 
 - **Backend:** [difflabai/ats-song-creator](https://github.com/difflabai/ats-song-creator)
 - **Agent Skills format:** [agentskills.io](https://agentskills.io/)
-- **ATS:** [Agent Task Service](https://github.com/difflabai/ats-song-creator)
+- **ATS:** [Agent Task Service](https://github.com/difflabai/ats-skill)
 
 ## License
 
